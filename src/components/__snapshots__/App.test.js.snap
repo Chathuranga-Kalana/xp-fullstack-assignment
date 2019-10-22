@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should render app component 1`] = `
+Array [
+  <BrowserRouter>
+    <div
+      className="main-app"
+    >
+      <header
+        className="main-header"
+      >
+        <h3>
+          <ForwardRef
+            to="/"
+          >
+            xp-fullstack-assignment
+          </ForwardRef>
+        </h3>
+      </header>
+      <main
+        className="main-content"
+      >
+        <Switch>
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/"
+          />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/user/:username"
+          />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/readme/:username/:reponame"
+          />
+        </Switch>
+      </main>
+    </div>
+  </BrowserRouter>,
+]
+`;

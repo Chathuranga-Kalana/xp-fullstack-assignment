@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReadmeComponent should fetch readme.md and render Readme component 1`] = `
+Array [
+  <section>
+    <h3
+      className="readme_title"
+    >
+       Readme.md
+    </h3>
+    <article
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": undefined,
+        }
+      }
+    />
+  </section>,
+]
+`;
